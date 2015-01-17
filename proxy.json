@@ -8,7 +8,7 @@
       "id": "proxy",
       "containers": [{
         "name": "proxy",
-        "image": "chuhnk/proxy",
+        "image": "chuhnk/kubernetes-proxy",
         "imagePullPolicy": "PullAlways",
         "ports": [{"containerPort": 80}, {"containerPort": 443}],
         "env": [
