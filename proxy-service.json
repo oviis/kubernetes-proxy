@@ -1,0 +1,9 @@
+{
+  "id": "proxy",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 80,
+  "containerPort": 80,
+  "selector": { "name": "proxy" },
+  "publicIPs": ["10.0.0.1", "10.0.0.2", "10.0.0.3"],
+}

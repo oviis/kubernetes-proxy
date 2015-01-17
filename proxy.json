@@ -1,0 +1,23 @@
+{
+  "kind": "Pod",
+  "apiVersion": "v1beta1",
+  "id": "proxy",
+  "desiredState": {
+    "manifest": {
+      "version": "v1beta1",
+      "id": "proxy",
+      "containers": [{
+        "name": "proxy",
+        "image": "chuhnk/proxy",
+        "imagePullPolicy": "PullAlways",
+        "ports": [{"containerPort": 80}, {"containerPort": 443}],
+        "env": [
+          {"name": "PROXY_DOMAIN", "value": "example.com"},
+        ]
+      }]
+    }
+  },
+  "labels": {
+    "name": "proxy",
+  }
+}
