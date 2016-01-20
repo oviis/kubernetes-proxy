@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/GoogleCloudPlatform/kubernetes/pkg/api"
-	"github.com/GoogleCloudPlatform/kubernetes/pkg/client"
-	"github.com/GoogleCloudPlatform/kubernetes/pkg/proxy/config"
-	"github.com/GoogleCloudPlatform/kubernetes/pkg/util"
+	"github.com/kubernetes/kubernetes/pkg/api"
+	client "k8s.io/kubernetes/pkg/client/unversioned"
+	"github.com/kubernetes/kubernetes/pkg/proxy/config"
+	"github.com/kubernetes/kubernetes/pkg/util"
 	log "github.com/cihub/seelog"
 )
 
