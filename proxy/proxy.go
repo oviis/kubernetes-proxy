@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/kubernetes/kubernetes/pkg/api"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
+	client "github.com/kubernetes/kubernetes/pkg/client/unversioned"
 	"github.com/kubernetes/kubernetes/pkg/proxy/config"
 	"github.com/kubernetes/kubernetes/pkg/util"
 	log "github.com/cihub/seelog"
