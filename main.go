@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/asim/kubernetes-proxy/proxy"
+	"github.com/oviis/kubernetes-proxy/proxy"
 )
 
 var (
